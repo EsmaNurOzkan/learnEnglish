@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Seviye 2</title>
+
+
+  <style>
+    #quizbtn{
+      margin-top:1rem;
+      margin-left:81rem;
+      border-radius: 0.5rem;
+      font-weight: bold;
+      color:rgb(131, 27, 131);
+      border: solid 2px rgb(70, 64, 64);
+      width:4rem;
+      background-color:rgb(235, 228, 228);
+
+     }
+
+      h2{
+        justify-content: center;
+        text-align:center;
+      }
+
+      .list-group-item {
+        border: 8px solid #6c757d; /* Gri renk için hex kodu (#6c757d) kullanıyoruz */
+        border-radius: 50px; /* Oval çerçeve için */
+        font-weight:700;
+        font-size:medium;
+        padding:1rem;
+        text-align:center;
+        background-color:rgb(235, 228, 228);
+      }
+
+      img{
+          float:inline-end;
+          margin-top: 2rem;
+          width:14rem;
+          height:7rem;
+          border-radius:3rem;
+          margin-left:0.8rem;
+          /* float: left; */
+        }
+
+        #jsonContent {
+        font-size:1.5rem;
+        /* white-space:pre-wrap; */
+        overflow:hidden;
+        width:fit-content;
+        font-weight:bold;
+        } 
+
+      .highlight {
+      color: purple;
+      font-weight: bold;
+      font-size:1rem;
+      }
+
+
+    #imgs{
+      justify-content:center;
+      text-align:center;
+      display:flex;
+      margin-bottom: 1rem;
+    }
+
+    .arrow {
+      border: solid black;
+      border-width: 0 7px 7px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+
+     #nextLevel{
+      margin-top:3rem; 
+      margin-left:1rem; 
+      margin-bottom:1rem;
+      border-radius:0.5rem;
+      height:min-content;
+      background-color:rgb(235, 228, 228);
+      /* color:rgb(92, 85, 85); */
+      color:rgb(95, 43, 95);
+      font-weight:bold;
+    }
+
+    #prevLevel{
+      margin-top:3rem; 
+      margin-left:1rem; 
+      margin-bottom:1rem;
+      border-radius:0.5rem;
+      height:min-content;
+      background-color:rgb(235, 228, 228);
+      /* color:rgb(92, 85, 85); */
+      color:rgb(95, 43, 95);
+      font-weight:bold;
+    }
+
+    #arw{
+      opacity:0.8;
+    }
+  </style>
+
+
+</head>
+<body style="background-color: hsl(280, 33%, 71%);" >
+
+  <button id="quizbtn">QUIZ</button>
+
+  <div class="container mt-5">
+    <h2>2. Seviye - Yer Yön Tarifleri</h2> 
+    <div class="list-group list-group-horizontal mt-3">
+      <a id="directions" class="list-group-item list-group-item-action rounded-pill">
+        Giving Directions (Yol Tarifi)
+      </a>
+      <a id="aroundTheCity" href="#" class="list-group-item list-group-item-action rounded-pill">
+        Getting Around in the City (Şehirde Gezinme)
+      </a>
+        
+  </div>
+
+<div id="imgs">
+  <div>
+    <button id="prevLevel">1. Seviye</button>
+    <p id="arw" >
+      <i class="arrow left"></i>   
+      <i class="arrow left"></i>
+      <i class="arrow left"></i>
+    </p>
+  </div> 
+  <img src="level2im1.jpg" > 
+  <img src="level2im2.jpg" > 
+  <img src="level2im3.jpg" > 
+  <div>
+    <button id="nextLevel">3. Seviye</button>
+    <p id="arw" >
+      <i class="arrow right"></i>   
+      <i class="arrow right"></i>
+      <i class="arrow right"></i>
+    </p>
+  </div> 
+  
+</div>
+
+<div id="jsonContent" ></div>
+
+
+
+<script>
+  $(document).ready(function() {
+          $("#prevLevel").click(function() {
+            var pathToSeviye1 = "../seviye_1/seviye1.html";
+            window.open(pathToSeviye1, "_blank");
+          });
+          $(document).ready(function() {
+          $("#nextLevel").click(function() {
+            var pathToSeviye3 = "../seviye_3/seviye3.html";
+            window.open(pathToSeviye3, "_blank");
+          });
+        });
+
+        $(".list-group-item").click(function() {
+            var clickedItemId = $(this).attr("id");
+            var jsonFileName = clickedItemId + ".json";
+      
+            $.getJSON(jsonFileName, function(data) {
+              var jsonString = JSON.stringify(data, null, 2);
+              jsonString = jsonString.replace(/\{|\}/g, "").replace(/\[|\]/g, ""); // Parantezleri çıkart
+              var jsonLines = jsonString.split("\n");
+              var jsonContentElement = $("#jsonContent");
+              jsonContentElement.empty();
+      
+              // Satır satır animasyonlu olarak ekle
+              jsonLines.forEach(function(line, index) {
+                setTimeout(function() {
+                  // Mor renkli sınıfı içeriğe ekle
+                  var lineWithHighlight = line
+                    .replace(/"phrase":/g, '<span class="highlight">"phrase":</span>')
+                    .replace(/"translation":/g, '<span class="highlight">"translation":</span>')
+                   
+                  jsonContentElement.append('<pre style="display: none;">' + lineWithHighlight + '</pre>');
+                  jsonContentElement.children().last().fadeIn(400); // 400ms'lik (1 saniye) fade-in animasyonu
+                }, 400 * index); // 400ms'lik gecikme ile satır satır eklenir
+              });
+            });
+          });
+
+          
+        });
+
+        $(document).ready(function() {
+        var quiz;
+
+    $.getJSON("quiz.json", function(data) {
+        quiz = data;
+    }).done(function() {
+        var currentIndex = 0;
+        var correctCount = 0;
+        var quizStarted = false;
+
+        $("#quizbtn").click(function() {
+            if (!quizStarted) {
+                quizStarted = true;
+                startQuiz();
+            }
+        });
+
+        function startQuiz() {
+            $(".container").empty();
+            showQuestion(currentIndex);
+        }
+
+        function showQuestion(index) {
+            if (index >= quiz.length) {
+                showResult();
+                return;
+            }
+
+            var question = quiz[index];
+            var questionHtml = `<div style="font-size:large; font-weight:700; background-color:rgb(235, 228, 228); border-radius:1rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)" class="card">
+                                    <div class="card-header">
+                                        Question ${index + 1}
+                                    </div>
+                                    <div class="card-body">
+                                        <p>${question.question}</p>
+                                        <ul>`;
+
+            question.options.forEach(function(option, optionIndex) {
+                questionHtml += `<li><input type="radio" name="question${index}" value="${optionIndex}"> ${option}</li>`;
+            });
+
+            questionHtml += `</ul>
+                            </div>
+                        </div>
+                        <button style="font-weight:600; background-color:rgb(235, 228, 228); border-radius:0.5rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); margin-left:62rem" id="nextbtn">Sonraki soru</button>`;
+
+            $(".container").html(questionHtml);
+
+            $("#nextbtn").click(function() {
+                var selectedOption = $("input[name=question" + index + "]:checked").val();
+                if (selectedOption == question.answer) {
+                    correctCount++;
+                }
+                currentIndex++;
+                showQuestion(currentIndex);
+            });
+        }
+
+        function showResult() {
+            var resultHtml = `<div style="font-size:large; font-weight:700; background-color:rgb(235, 228, 228); border-radius:1rem; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)" class="card">
+                                <div class="card-header">
+                                    Quiz Result
+                                </div>
+                                <div class="card-body">
+                                    <p>Doğru cevap sayısı: ${correctCount}</p>`;
+
+            if (correctCount >= 8) {
+                resultHtml += `<p class="text-success">BAŞARILI! BİR SONRAKİ SEVİYEYE GEÇEBİLİRSİNİZ.</p>`;
+            } else {
+                resultHtml += `<p class="text-danger">DURUM: BAŞARISIZ. BU SEVİYEYİ TEKRAR GÖZDEN GEÇİRİNİZ.</p>`;
+            }
+
+            resultHtml += `</div>
+                        </div>`;
+
+            $(".container").html(resultHtml);
+        }
+    });
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+[
+    {
+      "question": "Günlük yaşamda sıkça kullanılan bir ifade hangisidir?",
+      "options": [
+        "I like turtles.",
+        "The cat is on the table.",
+        "I'm fine, thank you.",
+        "The book is blue."
+      ],
+      "correct_answer": "I'm fine, thank you."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi günlük rutinleri anlatan bir ifadedir?",
+      "options": [
+        "She studies French every Saturday.",
+        "They played soccer yesterday.",
+        "I will go to the park tomorrow.",
+        "He is reading a book now."
+      ],
+      "correct_answer": "She studies French every Saturday."
+    },
+    {
+      "question": "'Present Continuous' (Şindiki zaman) cümlesi hangisinde kullanılır?",
+      "options": [
+        "I play the piano every evening.",
+        "She eats breakfast at 7 AM.",
+        "They are watching a movie now.",
+        "He will visit his grandmother tomorrow."
+      ],
+      "correct_answer": "They are watching a movie now."
+    },
+    {
+      "question": "Aşağıdaki diyaloglardan hangisi doğru bir şekilde eşleşmiştir?",
+      "options": [
+        "A: How old are you? B: I'm going to the park.",
+        "A: What's your name? B: Yes, I am.",
+        "A: Can I have a coffee? B: I am 25 years old.",
+        "A: What is your name? B: My name is John."
+      ],
+      "correct_answer": "A: What is your name? B: My name is John."
+    },
+    {
+      "question": "Bir kişiye 'Good evening!' dediğinizde ne demek istersiniz?",
+      "options": [
+        "İyi geceler!",
+        "Merhaba!",
+        "İyi günler!",
+        "İyi akşamlar!"
+      ],
+      "correct_answer": "İyi akşamlar!"
+    },
+    {
+      "question": "Günlük rutinlerinizi anlatırken hangi zamanı kullanırsınız?",
+      "options": [
+        "Past Continuous",
+        "Present Perfect",
+        "Past Simple",
+        "Present Simple"
+      ],
+      "correct_answer": "Present Simple"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi olumsuz bir ifadeye örnektir?",
+      "options": [
+        "I am reading a book.",
+        "She is watching a movie.",
+        "They are playing soccer.",
+        "He is not eating pizza."
+      ],
+      "correct_answer": "He is not eating pizza."
+    },
+    {
+      "question": "Bir arkadaşınıza 'How are you?' dediğinizde ne sormuş olursunuz?",
+      "options": [
+        "Adınız nedir?",
+        "Kaç yaşındasınız?",
+        "Nasılsınız?",
+        "Neler yapıyorsunuz?"
+      ],
+      "correct_answer": "Nasılsınız?"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi 'Subject-Verb-Object' cümle yapısına örnektir?",
+      "options": [
+        "She dances beautifully.",
+        "They are studying English.",
+        "He is a doctor.",
+        "The sky is blue."
+      ],
+      "correct_answer": "They are studying English."
+    },
+    {
+      "question": "Aşağıdaki sayılardan hangisi 'Six' rakamını ifade eder?",
+      "options": [
+        "4",
+        "7",
+        "6",
+        "9"
+      ],
+      "correct_answer": "6"
+    },
+    {
+      "question": "Hangi ifade 'Good morning!' ifadesine karşılık gelir?",
+      "options": [
+        "İyi geceler!",
+        "Merhaba!",
+        "İyi akşamlar!",
+        "Günaydın!"
+      ],
+      "correct_answer": "Günaydın!"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi doğru bir 'Present Continuous' cümlesine örnektir?",
+      "options": [
+        "I eat breakfast every morning.",
+        "She reads books.",
+        "They are playing soccer now.",
+        "He will go to the park tomorrow."
+      ],
+      "correct_answer": "They are playing soccer now."
+    },
+    {
+      "question": "Birisinin adını sorduğunuzda bunu nasıl söylersiniz?",
+      "options": [
+        "Where are you from?",
+        "How are you?",
+        "What is your name?",
+        "How old are you?"
+      ],
+      "correct_answer": "What is your name?"
+    },
+    {
+      "question": "Günlük hayatta 'Please' kelimesi ne anlama gelir?",
+      "options": [
+        "Hayır",
+        "Lütfen",
+        "Merhaba",
+        "Evet"
+      ],
+      "correct_answer": "Lütfen"
+    }
+    
+
+]    

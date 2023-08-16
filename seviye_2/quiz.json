@@ -1,0 +1,53 @@
+[
+    {
+      "question": "\"Go straight ahead.\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Sağa dön.", "Düz git.", "Sola dön.", "Geri git."],
+      "answer": "Düz git."
+    },
+    {
+      "question": "\"Turn left at the corner.\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Köşeden sola dön.", "Köşeden sağa dön.", "Düz git.", "Geri git."],
+      "answer": "Köşeden sola dön."
+    },
+    {
+      "question": "\"Take the second right.\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["İkinci sola dön.", "İkinci sağa dön.", "Düz git.", "Geri git."],
+      "answer": "İkinci sağa dön."
+    },
+    {
+      "question": "\"It's on your left.\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Sağ tarafında.", "Sol tarafında.", "Ön tarafında.", "Arka tarafında."],
+      "answer": "Sol tarafında."
+    },
+    {
+      "question": "\"Walk past the park.\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Parkta yürü.", "Parkın içinden geç.", "Parkın yanından geç.", "Parka gir."],
+      "answer": "Parkın önünden geç."
+    },
+    {
+      "question": "\"How far is the hotel from here?\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Buradan otelin ne kadar uzaklığı var?", "Buradan oteli nasıl bulabilirim?", "Burada hangi otel var?", "Otel nerede?."],
+      "answer": "Buradan otelin ne kadar uzaklığı var?"
+    },
+    {
+      "question": "\"Is there a bus that goes to the airport?\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Havaalanına giden otobüs var mı?", "Havaalanı nerede?", "Havaalanına nasıl giderim?", "Havaalanı hangi yönde?."],
+      "answer": "Havaalanına giden otobüs var mı?"
+    },
+    {
+      "question": "\"The building is across from the library.\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Bina kütüphanenin altında.", "Bina kütüphanenin üstünde.", "Bina kütüphanenin önünde.", "Bina kütüphanenin karşısında."],
+      "answer": "Bina kütüphanenin karşısında."
+    },
+    {
+      "question": "\"Could you show me the way to the nearest pharmacy?\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["En yakın eczanenin nerede olduğunu gösterebilir misiniz?", "En yakın eczanenin yolunu tarif edebilir misiniz?", "En yakın eczanenin fiyatları ne kadar?", "En yakın eczaneyi nasıl bulabilirim?"],
+      "answer": "En yakın eczanenin yolunu gösterebilir misiniz?"
+    },
+    {
+      "question": "\"Keep going until you reach the traffic lights.\" ifadesinin Türkçe karşılığı nedir?",
+      "options": ["Trafik ışıklarını geçtikten sonra durun.", "Trafik ışıklarına kadar devam edin.", "Trafik ışıklarında sola dönün.", "Trafik ışıklarından geri dönün."],
+      "answer": "Trafik ışıklarına kadar devam edin."
+    }
+  ]
+  

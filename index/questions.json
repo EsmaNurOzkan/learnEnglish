@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Hello, how ___ you today?",
+    "options": ["are", "is", "am", "do"],
+    "answer": "are"
+  },
+  {
+    "question": "What's the correct form of the verb \"to be\" for the pronoun \"he\"?",
+    "options": ["am", "is", "are", "be"],
+    "answer": "is"
+  },
+  {
+    "question": "Choose the correct word to complete the sentence: \"She ____ a book every day.\"",
+    "options": ["read", "reads", "reading", "is reading"],
+    "answer": "reads"
+  },
+  {
+    "question": "Which of the following sentences is grammatically correct?",
+    "options": [
+      "I have went to the store yesterday.",
+      "She have been studying for hours.",
+      "They has already left.",
+      "We went to the museum last weekend."
+    ],
+    "answer": "We went to the museum last weekend."
+  },
+  {
+    "question": "\"Could you pass me the salt, _____?\"",
+    "options": ["please", "will you", "isn't it", "I think"],
+    "answer": "will you"
+  },
+  {
+    "question": "Choose the correct word to complete the sentence: \"I'm ____ tired, I need some rest.\"",
+    "options": ["too", "enough", "very", "so"],
+    "answer": "very"
+  },
+  {
+    "question": "\"Have you ever ____ to Japan?\"",
+    "options": ["gone", "went", "go", "going"],
+    "answer": "gone"
+  },
+  {
+    "question": "What's the opposite of the word \"happy\"?",
+    "options": ["sad", "excited", "joyful", "content"],
+    "answer": "sad"
+  },
+  {
+    "question": "Which sentence uses the correct form of the past tense?",
+    "options": [
+      "He speaked English fluently.",
+      "She has went to the market.",
+      "We goed to the park.",
+      "They visited their grandparents yesterday."
+    ],
+    "answer": "They visited their grandparents yesterday."
+  },
+  {
+    "question": "\"I wish I ____ a better singer.\"",
+    "options": ["am", "will be", "would be", "be"],
+    "answer": "were"
+  },
+  {
+    "question": "Choose the correct word order: \"often / she / goes / to the gym\"",
+    "options": [
+      "Often she goes to the gym.",
+      "She goes often to the gym.",
+      "She to the gym goes often.",
+      "Goes she to the gym often."
+    ],
+    "answer": "Often she goes to the gym."
+  },
+  {
+    "question": "Which of these words is a synonym for \"huge\"?",
+    "options": ["tiny", "small", "large", "little"],
+    "answer": "large"
+  },
+  {
+    "question": "\"If I ____ you, I would take that job.\"",
+    "options": ["am", "was", "were", "be"],
+    "answer": "were"
+  },
+  {
+    "question": "What's the correct form of the verb \"to eat\" in the present continuous tense for the pronoun \"they\"?",
+    "options": ["eat", "eats", "ate", "eating"],
+    "answer": "eating"
+  },
+  {
+    "question": "\"She ____ to the radio when I saw her.\"",
+    "options": ["listens", "is listening", "listened", "has listened"],
+    "answer": "was listening"
+  }
+]

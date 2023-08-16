@@ -1,0 +1,178 @@
+[
+  {
+    "expression": "Hello!",
+    "meaning": "Merhaba!"
+  },
+  {
+    "expression": "Hi!",
+    "meaning": "Selam!"
+  },
+  {
+    "expression": "Good morning!",
+    "meaning": "Günaydın!"
+  },
+  {
+    "expression": "Good afternoon!",
+    "meaning": "Tünaydın!"
+  },
+  {
+    "expression": "Good evening!",
+    "meaning": "İyi akşamlar!"
+  },
+  {
+    "expression": "How are you?",
+    "meaning": "Nasılsınız?"
+  },
+  {
+    "expression": "What is your name?",
+    "meaning": "Adınız nedir?"
+  },
+  {
+    "expression": "My name is John.",
+    "meaning": "Benim adım John."
+  },
+  {
+    "expression": "How old are you?",
+    "meaning": "Kaç yaşındasınız?"
+  },
+  {
+    "expression": "I am 25 years old.",
+    "meaning": "Ben 25 yaşındayım."
+  },
+  {
+    "expression": "What do you do for a living?",
+    "meaning": "Ne iş yapıyorsunuz?"
+  },
+  {
+    "expression": "I am a teacher.",
+    "meaning": "Ben bir öğretmenim."
+  },
+  {
+    "expression": "Where are you from?",
+    "meaning": "Nerelisiniz?"
+  },
+  {
+    "expression": "I am from Türkiye.",
+    "meaning": "Ben Türk'üm."
+  },
+  {
+    "expression": "What are your hobbies?",
+    "meaning": "Hobileriniz nelerdir?"
+  },
+  {
+    "expression": "Thank you.",
+    "meaning": "Teşekkür ederim."
+  },
+  {
+    "expression": "You're welcome.",
+    "meaning": "Rica ederim."
+  },
+  {
+    "expression": "How much is it?",
+    "meaning": "Bunu kaç para?"
+  },
+  {
+    "expression": "I'm sorry.",
+    "meaning": "Özür dilerim."
+  },
+  {
+    "expression": "Excuse me.",
+    "meaning": "Afedersiniz."
+  },
+  {
+    "expression": "Please.",
+    "meaning": "Lütfen."
+  },
+  {
+    "expression": "No.",
+    "meaning": "Hayır."
+  },
+  {
+    "expression": "What time is it?",
+    "meaning": "Saat kaç?"
+  },
+  {
+    "expression": "It's 3 o'clock.",
+    "meaning": "Saat 3."
+  },
+  {
+    "expression": "One",
+    "meaning": "1"
+  },
+  {
+    "expression": "Two",
+    "meaning": "2"
+  },
+  {
+    "expression": "Three",
+    "meaning": "3"
+  },
+  {
+    "expression": "Four",
+    "meaning": "4"
+  },
+  {
+    "expression": "Five",
+    "meaning": "5"
+  },
+  {
+    "expression": "Six",
+    "meaning": "6"
+  },
+  {
+    "expression": "Seven",
+    "meaning": "7"
+  },
+  {
+    "expression": "Eight",
+    "meaning": "8"
+  },
+  {
+    "expression": "Nine",
+    "meaning": "9"
+  },
+  {
+    "expression": "Ten",
+    "meaning": "10"
+  },
+  {
+    "expression": "Eleven",
+    "meaning": "11"
+  },
+  {
+    "expression": "Twelve",
+    "meaning": "12"
+  },
+  {
+    "expression": "Thirteen",
+    "meaning": "13"
+  },
+  {
+    "expression": "Fourteen",
+    "meaning": "14"
+  },
+  {
+    "expression": "Fifteen",
+    "meaning": "15"
+  },
+  {
+    "expression": "Sixteen",
+    "meaning": "16"
+  },
+  {
+    "expression": "Seventeen",
+    "meaning": "17"
+  },
+  {
+    "expression": "Eighteen",
+    "meaning": "18"
+  },
+  {
+    "expression": "Nineteen",
+    "meaning": "19"
+  },
+  {
+    "expression": "Twenty",
+    "meaning": "20"
+  }
+]

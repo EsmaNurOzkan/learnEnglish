@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>İngilizce Öğren</title>
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body style="background-color: rgb(245, 243, 241);">
+    
+    <div style=" color: rgb(88, 34, 88);" id="welcomeMessage">    
+        İngilizce öğrenme uygulamasına hoşgeldiniz. 
+        Öğrenmeye başlamadan önce bilginizi ölçmek adına hazırladığımız seviye 
+        tespit sınavına girmeniz gerekiyor. Değerlendirme sonucunda size uygun 
+        seviyeden başlayabilirsiniz. Testi çözmek için <a href="#" onClick="displayQuizPopup()" id="startTest">tıklayın</a> .
+    </div>
+
+    <div id="levelsSection" class="table-responsive">
+
+        <table style="font-weight:800; color: rgb(88, 34, 88);" class="table">
+            <tr><td>
+                Seviye 0
+                <span> <br> EN YAYGIN 100 KELİME</span>
+            </td></tr>
+
+            <tr><td>
+                Seviye 1
+                <span> <br>GÜNLÜK İLETİŞİM VE TEMEL CÜMLE YAPISI</span>
+            </td></tr>
+
+            <tr><td>
+                Seviye 2
+                <span> <br> YER YÖN TARİFLERİ</span>
+            </td></tr>
+            
+            <tr style="opacity:0.5"><td>
+                Seviye 3   <i class="fa fa-lock" aria-hidden="true"></i>
+                <span> <br> Bu seviye kilitli</span>
+
+            </td></tr>
+            
+            <tr style="opacity:0.5"><td>
+                Seviye 4    <i class="fa fa-lock" aria-hidden="true"></i>
+                <span> <br> Bu seviye kilitli</span>
+            </td></tr>
+            
+            <tr style="opacity:0.5"><td>
+                Seviye 5      <i class="fa fa-lock" aria-hidden="true"></i>
+                <span> <br> Bu seviye kilitli</span>
+            </td></tr>
+            
+            <tr style="opacity:0.5"><td>
+                Seviye 6     <i class="fa fa-lock" aria-hidden="true"></i>
+                <span> <br> Bu seviye kilitli</span>
+            </td></tr>
+
+                  
+
+        </table>
+
+    </div>
+
+    <div  id="popupBox">
+        <div id="questionContainer">
+            <h3 id="question"></h3>
+            <ul  id="options"></ul>
+            <button style="margin-left:20rem; border-radius:1rem ;" id="nextButton">Sonraki</button>
+        </div>
+        <br>
+        <button style=" font-size:small; font-weight:400; color:beige; float:right; border-radius:0.5rem ; background-color: rgb(194, 41, 41);" onClick="hideQuizPopup()" id="closePopup">Kapat</button>
+    </div>
+
+    
+
+<script src="app.js"></script>    
+</body>
+</html>

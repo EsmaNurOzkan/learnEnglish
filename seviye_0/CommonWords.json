@@ -1,0 +1,603 @@
+[
+      {
+        "word": "about",
+        "wordMeaning": "hakkında",
+        "example": "What is this book about?",
+        "exampleMeaning": "Bu kitap ne hakkında?"
+      },
+      {
+        "word": "all",
+        "wordMeaning": "bütün, tüm",
+        "example": "All students must attend the meeting.",
+        "exampleMeaning": "Bütün öğrenciler toplantıya katılmak zorundadır."
+      },
+      {
+        "word": "also",
+        "wordMeaning": "ayrıca, -da",
+        "example": "She is talented and also hardworking.",
+        "exampleMeaning": "O yetenekli ve ayrıca çalışkan."
+      },
+      {
+        "word": "and",
+        "wordMeaning": "ve",
+        "example": "He likes to read and write.",
+        "exampleMeaning": "O, okumayı ve yazmayı sever."
+      },
+      {
+        "word": "be",
+        "wordMeaning": "olmak",
+        "example": "I want to be a doctor.",
+        "exampleMeaning": "Doktor olmak istiyorum."
+      },
+      {
+        "word": "because",
+        "wordMeaning": "çünkü",
+        "example": "I stayed home because it was raining.",
+        "exampleMeaning": "Evde kaldım çünkü yağmur yağıyordu."
+      },
+      {
+        "word": "but",
+        "wordMeaning": "fakat, ama",
+        "example": "I am tired, but I have to finish this project.",
+        "exampleMeaning": "Yorgunum, ama bu projeyi bitirmem gerekiyor."
+      },
+      {
+        "word": "by",
+        "wordMeaning": "tarafından, yanında, ile",
+        "example": "The book was written by an unknown author.",
+        "exampleMeaning": "Kitap, bilinmeyen bir yazar tarafından yazıldı."
+      },
+      {
+        "word": "can",
+        "wordMeaning": "-ebilmek",
+        "example": "She can swim very well.",
+        "exampleMeaning": "O çok iyi yüzebilir."
+      },
+      {
+        "word": "come",
+        "wordMeaning": "gelmek",
+        "example": "Please come to the party.",
+        "exampleMeaning": "Lütfen partiye gelin."
+      },
+      {
+        "word": "continue",
+        "wordMeaning": "devam etmek",
+        "example": "You should continue studying.",
+        "exampleMeaning": "Çalışmaya devam etmelisin."
+      },
+      {
+        "word": "could",
+        "wordMeaning": "-ebilir",
+        "example": "Could you please pass me the salt?",
+        "exampleMeaning": "Lütfen bana tuzu uzatabilir misiniz?"
+      },
+      {
+        "word": "day",
+        "wordMeaning": "gün",
+        "example": "Today is a beautiful day.",
+        "exampleMeaning": "Bugün güzel bir gün."
+      },
+      {
+        "word": "do",
+        "wordMeaning": "yapmak",
+        "example": "I do my homework every day.",
+        "exampleMeaning": "Her gün ödevlerimi yaparım."
+      },
+      {
+        "word": "even",
+        "wordMeaning": "bile",
+        "example": "He didn't even say goodbye.",
+        "exampleMeaning": "O, elveda bile demedi."
+      },
+      {
+        "word": "find",
+        "wordMeaning": "bulmak",
+        "example": "I can't find my keys.",
+        "exampleMeaning": "Anahtarlarımı bulamıyorum."
+      },
+      {
+        "word": "first",
+        "wordMeaning": "ilk",
+        "example": "This is my first time here.",
+        "exampleMeaning": "Buraya ilk defa geliyorum."
+      },
+      {
+        "word": "for",
+        "wordMeaning": "için, çünkü",
+        "example": "I bought a gift for my sister.",
+        "exampleMeaning": "Kız kardeşim için bir hediye aldım."
+      },
+      {
+        "word": "from",
+        "wordMeaning": "-den, -dan",
+        "example": "I received a letter from my friend.",
+        "exampleMeaning": "Arkadaşımdan bir mektup aldım."
+      },
+      {
+        "word": "get",
+        "wordMeaning": "elde etmek, edinmek, ulaşmak",
+        "example": "I want to get a new job.",
+        "exampleMeaning": "Yeni bir iş edinmek istiyorum."
+      },
+      {
+        "word": "give",
+        "wordMeaning": "vermek",
+        "example": "She gave me a book for my birthday.",
+        "exampleMeaning": "Doğum günüm için bana bir kitap verdi."
+      },
+      {
+        "word": "go",
+        "wordMeaning": "gitmek",
+        "example": "Let's go to the park.",
+        "exampleMeaning": "Parka gidelim."
+      },
+      {
+        "word": "have",
+        "wordMeaning": "sahip olmak",
+        "example": "I have a car.",
+        "exampleMeaning": "Bir arabam var."
+      },
+      {
+        "word": "he",
+        "wordMeaning": "o (erkek)",
+        "example": "He is my brother.",
+        "exampleMeaning": "O benim erkek kardeşim."
+      },
+      {
+        "word": "her",
+        "wordMeaning": "onun, onu (kadın)",
+        "example": "Her name is Sarah.",
+        "exampleMeaning": "Onun adı Sarah."
+      },
+      {
+        "word": "here",
+        "wordMeaning": "burada",
+        "example": "Come here, please.",
+        "exampleMeaning": "Lütfen buraya gelin."
+      },
+      {
+        "word": "him",
+        "wordMeaning": "onu/ona (erkek)",
+        "example": "I saw him at the party.",
+        "exampleMeaning": "Partide onu gördüm."
+      },
+      {
+        "word": "his",
+        "wordMeaning": "onun (erkek)",
+        "example": "His car is parked outside.",
+        "exampleMeaning": "Onun arabası dışarıda park etmiş."
+      },
+      {
+        "word": "how",
+        "wordMeaning": "nasıl",
+        "example": "How are you?",
+        "exampleMeaning": "Nasılsınız?"
+      },
+      {
+        "word": "I",
+        "wordMeaning": "ben",
+        "example": "I like to read books.",
+        "exampleMeaning": "Kitap okumayı severim."
+      },
+      {
+        "word": "if",
+        "wordMeaning": "eğer",
+        "example": "If it rains, we will stay indoors.",
+        "exampleMeaning": "Eğer yağmur yağarsa, içeride kalacağız."
+      },
+      {
+        "word": "in",
+        "wordMeaning": "içinde",
+        "example": "The keys are in the drawer.",
+        "exampleMeaning": "Anahtarlar çekmecenin içinde."
+      },
+      {
+        "word": "into",
+        "wordMeaning": "içine",
+        "example": "She jumped into the pool.",
+        "exampleMeaning": "O havuza atladı."
+      },
+      {
+        "word": "it",
+        "wordMeaning": "o, onu (cansız varlık, hayvan)",
+        "example": "It is a beautiful day.",
+        "exampleMeaning": "Bu güzel bir gün."
+      },
+      {
+        "word": "its",
+        "wordMeaning": "onun (cansız varlık, hayvan)",
+        "example": "The cat licked its paws.",
+        "exampleMeaning": "Kedi, patilerini yaladı."
+      },
+      {
+        "word": "just",
+        "wordMeaning": "henüz, sadece",
+        "example": "She needs just a little bit of sugar for her tea.",
+        "exampleMeaning": "Onun çayı için sadece biraz şeker lazım."
+      },
+      {
+        "word": "know",
+        "wordMeaning": "bilmek",
+        "example": "I know the answer.",
+        "exampleMeaning": "Cevabı biliyorum."
+      },
+      {
+        "word": "later",
+        "wordMeaning": "daha sonra",
+        "example": "See you later.",
+        "exampleMeaning": "Sonra görüşürüz."
+      },
+      {
+        "word": "like",
+        "wordMeaning": "gibi, hoşlanmak",
+        "example": "She looks like her mother.",
+        "exampleMeaning": "O, annesine benziyor."
+      },
+      {
+        "word": "look",
+        "wordMeaning": "bakmak, görünmek",
+        "example": "Look at the stars.",
+        "exampleMeaning": "Yıldızlara bakın."
+      },
+      {
+        "word": "make",
+        "wordMeaning": "yapmak",
+        "example": "She can make a delicious cake.",
+        "exampleMeaning": "O, lezzetli bir kek yapabilir."
+      },
+      {
+        "word": "man",
+        "wordMeaning": "adam",
+        "example": "The man is reading a book.",
+        "exampleMeaning": "Adam bir kitap okuyor."
+      },
+      {
+        "word": "many",
+        "wordMeaning": "çok",
+        "example": "There are many books on the shelf.",
+        "exampleMeaning": "Rafın üzerinde çok kitap var."
+      },
+      {
+        "word": "me",
+        "wordMeaning": "beni, bana",
+        "example": "He gave me a gift.",
+        "exampleMeaning": "Bana bir hediye verdi."
+      },
+      {
+        "word": "more",
+        "wordMeaning": "daha çok",
+        "example": "I need more time.",
+        "exampleMeaning": "Daha çok zaman lazım."
+      },
+      {
+        "word": "my",
+        "wordMeaning": "benim",
+        "example": "This is my house.",
+        "exampleMeaning": "Bu benim evim."
+      },
+      {
+        "word": "new",
+        "wordMeaning": "yeni",
+        "example": "She got a new job.",
+        "exampleMeaning": "Yeni bir iş buldu."
+      },
+      {
+        "word": "no",
+        "wordMeaning": "hayır",
+        "example": "No, I can't go with you.",
+        "exampleMeaning": "Hayır, sizinle gelemem."
+      },
+      {
+        "word": "not",
+        "wordMeaning": "değil, olumsuzluk eki",
+        "example": "I am not hungry.",
+        "exampleMeaning": "Aç değilim."
+      },
+      {
+        "word": "now",
+        "wordMeaning": "şimdi",
+        "example": "I am busy right now.",
+        "exampleMeaning": "Şu anda meşgulüm."
+      },
+      {
+        "word": "of",
+        "wordMeaning": "-in, -ın",
+        "example": "The top of the mountain is covered in snow.",
+        "exampleMeaning": "Dağın tepesi karla kaplı."
+      },
+      {
+        "word": "on",
+        "wordMeaning": "üzerinde",
+        "example": "The keys are on the table.",
+        "exampleMeaning": "Anahtarlar masanın üzerinde."
+      },
+      {
+        "word": "one",
+        "wordMeaning": "bir",
+        "example": "I have one brother.",
+        "exampleMeaning": "Bir erkek kardeşim var."
+      },
+      {
+        "word": "only",
+        "wordMeaning": "sadece, tek",
+        "example": "She is the only one who can solve the problem.",
+        "exampleMeaning": "O, problemi çözebilen tek kişi."
+      },
+      {
+        "word": "or",
+        "wordMeaning": "veya, ya da",
+        "example": "You can bring tea or coffee?",
+        "exampleMeaning": "Çay veya kahve getirebilirsin."
+      },
+      {
+        "word": "other",
+        "wordMeaning": "diğer",
+        "example": "I have to finish this before I start any other work.",
+        "exampleMeaning": "Diğer işe başlamadan önce bunu bitirmem gerekiyor."
+      },
+      {
+        "word": "our",
+        "wordMeaning": "bizim",
+        "example": "This is our house.",
+        "exampleMeaning": "Bu bizim evimiz."
+      },
+      {
+        "word": "out",
+        "wordMeaning": "dışarı, dışarda",
+        "example": "The cat is out of the box.",
+        "exampleMeaning": "Kedi kutudan dışarı çıktı."
+      },
+      {
+        "word": "people",
+        "wordMeaning": "insanlar",
+        "example": "People are waiting for the bus.",
+        "exampleMeaning": "İnsanlar otobüsü bekliyorlar."
+      },
+      {
+        "word": "say",
+        "wordMeaning": "söylemek",
+        "example": "Can you say that again, please?",
+        "exampleMeaning": "Lütfen tekrar söyleyebilir misiniz?"
+      },
+      {
+        "word": "see",
+        "wordMeaning": "görmek",
+        "example": "I see the stars in the sky.",
+        "exampleMeaning": "Gökyüzünde yıldızları görüyorum."
+      },
+      {
+        "word": "set",
+        "wordMeaning": "ayarlamak",
+        "example": "She set the alarm for 6 am.",
+        "exampleMeaning": "O, alarmı saat 6'ya ayarladı."
+      },
+      {
+        "word": "she",
+        "wordMeaning": "o (kadın)",
+        "example": "She is my sister.",
+        "exampleMeaning": "O benim kız kardeşim."
+      },
+      {
+        "word": "so",
+        "wordMeaning": "böylece, öyleyse",
+        "example": "I am tired, so I will go to bed early.",
+        "exampleMeaning": "Yorgunum, bu yüzden erken yatacağım."
+      },
+      {
+        "word": "some",
+        "wordMeaning": "bazı, biraz",
+        "example": "There are some apples in the basket.",
+        "exampleMeaning": "Sepette birkaç elma var."
+      },
+      {
+        "word": "take",
+        "wordMeaning": "almak, götürmek, çekmek",
+        "example": "I will take the book from the shelf.",
+        "exampleMeaning": "Kitabı raftan alacağım"
+      },
+      {
+        "word": "tell",
+        "wordMeaning": "söylemek",
+        "example": "Can you tell me the time?",
+        "exampleMeaning": "Bana saati söyleyebilir misiniz?"
+      },
+      {
+        "word": "than",
+        "wordMeaning": "-e göre, kıyasla",
+        "example": "She is taller than her brother.",
+        "exampleMeaning": "O, erkek kardeşinden daha uzun."
+      },
+      {
+        "word": "that",
+        "wordMeaning": "o (uzaktaki)",
+        "example": "That is a nice car.",
+        "exampleMeaning": "O güzel bir araba."
+      },
+      {
+        "word": "the",
+        "wordMeaning": "belli bir objeyi/yeri/kişiyi tanımlamak için kullanılır",
+        "example": "The book is on the table.",
+        "exampleMeaning": "Kitap masanın üstünde."
+      },
+      {
+        "word": "their",
+        "wordMeaning": "onların",
+        "example": "Their house is big.",
+        "exampleMeaning": "Onların evi büyük."
+      },
+      {
+        "word": "them",
+        "wordMeaning": "onları, onlara",
+        "example": "I gave them the keys.",
+        "exampleMeaning": "Anahtarları onlara verdim."
+      },
+      {
+        "word": "then",
+        "wordMeaning": "o zaman, ondan sonra",
+        "example": "First, we will eat, and then we will go.",
+        "exampleMeaning": "Önce yemek yiyeceğiz, sonra gideceğiz."
+      },
+      {
+        "word": "there",
+        "wordMeaning": "orada",
+        "example": "The keys are there.",
+        "exampleMeaning": "Anahtarlar orada."
+      },
+      {
+        "word": "these",
+        "wordMeaning": "bu, bunlar (yakın)",
+        "example": "These books are interesting.",
+        "exampleMeaning": "Bu kitaplar ilginç."
+      },
+      {
+        "word": "they",
+        "wordMeaning": "onlar",
+        "example": "They are coming to the party.",
+        "exampleMeaning": "Onlar partiye geliyorlar."
+      },
+      {
+        "word": "thing",
+        "wordMeaning": "şey",
+        "example": "This thing belongs to me.",
+        "exampleMeaning": "Bu şey bana ait."
+      },
+      {
+        "word": "think",
+        "wordMeaning": "düşünmek, sanmak",
+        "example": "I think it will rain today.",
+        "exampleMeaning": "Bugün yağmur yağacak sanırım."
+      },
+      {
+        "word": "this",
+        "wordMeaning": "bu (yakın)",
+        "example": "This is my cat.",
+        "exampleMeaning": "Bu benim kedim."
+      },
+      {
+        "word": "those",
+        "wordMeaning": "onlar (uzak)",
+        "example": "Those are beautiful flowers.",
+        "exampleMeaning": "Onlar güzel çiçekler."
+      },
+      {
+        "word": "time",
+        "wordMeaning": "zaman, süre",
+        "example": "I don't have time right now.",
+        "exampleMeaning": "Şu anda zamanım yok."
+      },
+      {
+        "word": "to",
+        "wordMeaning": "-e, -a",
+        "example": "I want to go to the beach.",
+        "exampleMeaning": "Plaja gitmek istiyorum."
+      },
+      {
+        "word": "two",
+        "wordMeaning": "iki",
+        "example": "I have two cats.",
+        "exampleMeaning": "İki kedim var."
+      },
+      {
+        "word": "up",
+        "wordMeaning": "yukarı",
+        "example": "He looked up at the sky.",
+        "exampleMeaning": "Gökyüzüne baktı."
+      },
+      {
+        "word": "use",
+        "wordMeaning": "kullanmak",
+        "example": "You can use my pen.",
+        "exampleMeaning": "Kalemi kullanabilirsiniz."
+      },
+      {
+        "word": "very",
+        "wordMeaning": "çok",
+        "example": "I am very happy.",
+        "exampleMeaning": "Çok mutluyum."
+      },
+      {
+        "word": "want",
+        "wordMeaning": "istemek",
+        "example": "I want to travel the world.",
+        "exampleMeaning": "Dünya turu yapmak istiyorum."
+      },
+      {
+        "word": "way",
+        "wordMeaning": "yol",
+        "example": "Which way should we go?",
+        "exampleMeaning": "Hangi yolu takip etmeliyiz?"
+      },
+      {
+        "word": "we",
+        "wordMeaning": "biz",
+        "example": "We are going to the park.",
+        "exampleMeaning": "Parka gidiyoruz."
+      },
+      {
+        "word": "well",
+        "wordMeaning": "iyi",
+        "example": "She sings well.",
+        "exampleMeaning": "O iyi şarkı söyler."
+      },
+      {
+        "word": "what",
+        "wordMeaning": "ne",
+        "example": "What is your name?",
+        "exampleMeaning": "Adınız ne?"
+      },
+      {
+        "word": "when",
+        "wordMeaning": "ne zaman",
+        "example": "When will you arrive?",
+        "exampleMeaning": "Ne zaman geleceksiniz?"
+      },
+      {
+        "word": "which",
+        "wordMeaning": "hangi",
+        "example": "Which color do you prefer?",
+        "exampleMeaning": "Hangi rengi tercih edersiniz?"
+      },
+      {
+        "word": "who",
+        "wordMeaning": "kim",
+        "example": "Who is that person?",
+        "exampleMeaning": "O kişi kim?"
+      },
+      {
+        "word": "will",
+        "wordMeaning": "-ecek, -acak",
+        "example": "I will call you later.",
+        "exampleMeaning": "Daha sonra seni arayacağım."
+      },
+      {
+        "word": "with",
+        "wordMeaning": "ile, birlikte",
+        "example": "She went to the party with her friends.",
+        "exampleMeaning": "Arkadaşlarıyla birlikte partiye gitti."
+      },
+      {
+        "word": "would",
+        "wordMeaning": "-ecekti, -erdi",
+        "example": "I would like a cup of tea, please.",
+        "exampleMeaning": "Bir fincan çay istiyorum, lütfen."
+      },
+      {
+        "word": "year",
+        "wordMeaning": "yıl",
+        "example": "This year went by so fast.",
+        "exampleMeaning": "Bu yıl çok hızlı geçti."
+      },
+      {
+        "word": "you",
+        "wordMeaning": "sen",
+        "example": "You are my best friend.",
+        "exampleMeaning": "Sen benim en iyi arkadaşımsın."
+      },
+      {
+        "word": "your",
+        "wordMeaning": "senin",
+        "example": "Is this your book?",
+        "exampleMeaning": "Bu senin kitabın mı?"
+      }
+]
+  

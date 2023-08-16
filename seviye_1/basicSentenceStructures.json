@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Temel İngilizce Cümle Yapısı",
+    "content": [
+      "Temel İngilizce cümleleri, basit bir yapıya sahiptir ve genellikle 'Subject + Verb' şeklinde oluşur.",
+      "She sings. (O şarkı söyler.)",
+      "He runs. (O koşar.)",
+      "They eat. (Onlar yemek yer.)"
+    ]
+  },
+  {
+    "title": "Olumsuz Cümleler",
+    "content": [
+      "Cümlenin olumsuz anlam taşıdığı durumlarda kullanılır ve genellikle 'do not' (don't) veya 'does not' (doesn't) gibi yardımcı fiillerle oluşturulur.",
+      "Örneğin: He does not like coffee. (O kahveyi sevmez.)",
+      "She does not speak Spanish. (O İspanyolca konuşmaz.)",
+      "They do not study math. (Onlar matematik çalışmaz.)"
+    ]
+  },
+  {
+    "title": "Soru Cümleleri",
+    "content": [
+      "Soru cümleleri, bir soru sormak için kullanılır ve cümlenin başına genellikle 'do' veya 'does' getirilir.",
+      "Örneğin: Do you speak English? (İngilizce konuşuyor musun?)",
+      "Does she like pizza? (O pizza sever mi?)",
+      "Do they study English? (Onlar İngilizce çalışıyor mu?)"
+    ]
+  },
+  {
+    "title": "Subject-Verb Cümleleri",
+    "content": [
+      "Subject-Verb cümleleri, sadece özne ve fiilden oluşur.",
+      "Bu tür cümlelerde ekstra nesne veya zarf ifadeleri yoktur ve sadece bir eylem ifadesi vardır.",
+      "She cries. (O ağlar .)",
+      "She runs in the park. (O parkta koşar.)"
+    ]
+  },
+  {
+    "title": "Subject-Verb-Object Cümleleri",
+    "content": [
+      "Subject-Verb-Object cümleleri, özne, fiil ve nesneden oluşur.",
+      "Örneğin: They watch movies. (Onlar film izlerler.)",
+      "'They' (onlar) öznesi, 'watch' (izlerler) fiili ve 'movies' (filmler) nesnesi vardır.",
+      "She reads books. (O kitapları okur.)",
+      "We play football. (Biz futbol oynarız.)"
+    ]
+  }
+]

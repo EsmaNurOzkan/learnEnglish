@@ -1,0 +1,43 @@
+[
+    {
+      "phrase": "Excuse me, where is the nearest subway station?",
+      "translation": "Affedersiniz, en yakın metro istasyonu nerede?"
+    },
+    {
+      "phrase": "Can you tell me how to get to the city center?",
+      "translation": "Bana şehir merkezine nasıl gidileceğini söyleyebilir misiniz?"
+    },
+    {
+      "phrase": "Is there a bus that goes to the airport?",
+      "translation": "Havaalanına giden otobüs var mı?"
+    },
+    {
+      "phrase": "Which bus should I take to go to the museum?",
+      "translation": "Müze için hangi otobüsü almalıyım?"
+    },
+    {
+      "phrase": "I'm looking for the nearest train station.",
+      "translation": "En yakın tren istasyonunu arıyorum."
+    },
+    {
+      "phrase": "Is this the right way to the shopping mall?",
+      "translation": "Bu, alışveriş merkezine giden doğru yol mu?"
+    },
+    {
+      "phrase": "How far is the hotel from here?",
+      "translation": "Otel buraya ne kadar uzaklıkta?"
+    },
+    {
+      "phrase": "Can you recommend a good place to eat around here?",
+      "translation": "Buradalarda yemek yiyebileceğim iyi bir yer tavsiye edebilir misiniz?"
+    },
+    {
+      "phrase": "I need to catch a taxi to the theater.",
+      "translation": "Tiyatroya gitmek için bir taksiye ihtiyacım var."
+    },
+    {
+      "phrase": "Could you show me the way to the nearest pharmacy?",
+      "translation": "En yakın eczanenin yolunu gösterebilir misiniz?"
+    }
+  ]
+  

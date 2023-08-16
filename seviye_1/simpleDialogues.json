@@ -1,0 +1,20 @@
+{
+  "Dialog 1": [
+    "A: Good morning! (Günaydın!)",
+    "B: Good morning! How are you? (Günaydın! Nasılsınız?)",
+    "A: I'm fine, thank you. And you? (Ben iyiyim, teşekkür ederim. Siz nasılsınız?)",
+    "B: I'm good too. (Ben de iyiyim.)"
+  ],
+  "Dialog 2": [
+    "A: What's your name? (Adınız nedir?)",
+    "B: My name is Emily. (Benim adım Emily.)",
+    "A: Nice to meet you, Emily. (Tanıştığıma memnun oldum, Emily.)",
+    "B: Nice to meet you too. (Ben de tanıştığıma memnun oldum.)"
+  ],
+  "Dialog 3": [
+    "A: Can I have a coffee, please? (Bir kahve alabilir miyim, lütfen?)",
+    "B: Sure, here you go. (Tabii, buyurun.)",
+    "A: Thank you. (Teşekkür ederim.)",
+    "B: You're welcome. (Rica ederim.)"
+  ]
+}
